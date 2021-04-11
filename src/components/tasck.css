@@ -1,0 +1,36 @@
+input[type="checkbox"] { /* change "blue" browser chrome to yellow*/
+    filter: invert(10%) hue-rotate(330deg) brightness(1.7);
+    width: 30px !important;
+    height: 30px !important;
+    margin: 5px;
+   
+    outline: 2px solid lightblue;
+    box-shadow: none;
+    font-size: 2em} 
+ .task-style{
+     border-radius: 20px;
+     background-color: white;
+     margin-top: 20px;
+     margin-bottom: 10px;
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     
+ }
+
+ .task-style:hover{
+    transform:scale(1.1);
+
+ }
+ .input-group-text {
+    padding-top: 8px;
+     background-color: transparent; 
+     border: 0px  transparent; 
+    
+}
+.label-style{
+    text-align:"center";
+    display:"flex";
+    align-items:"center";
+    margin-bottom:"16px";
+}
